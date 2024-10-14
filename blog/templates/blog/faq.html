@@ -1,77 +1,80 @@
 <!--Brody Rines, 9/28/2024, 11:30-->
-{% extends 'blog/base.html' %} {% block content %}
-<div class="container mt-5">
-  <h1 class="mb-4">Frequently Asked Questions</h1>
+{% extends 'blog/base.html' %}
 
-  <div class="dropdown">
-    <button
-      class="btn btn-secondary dropdown-toggle"
-      type="button"
-      id="faqDropdown"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
-    >
-      Select a Question
-    </button>
-    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="faqDropdown">
-      <li>
-        <a
-          class="dropdown-item"
-          href="#"
-          data-bs-toggle="collapse"
-          data-bs-target="#faqOne"
-          aria-expanded="false"
-          aria-controls="faqOne"
-        >
-          What features does our webpage offer?
-        </a>
-        <div class="collapse" id="faqOne">
-          <div class="card card-body">
-            Our website offers features such as job postings, networking
-            abilities, and many other ways to find work in your area.
+{% block content %}
+<div class="wrapper">
+  <div class="container mt-5">
+    <h1 class="mb-4">Frequently Asked Questions</h1>
+
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="faqDropdown"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Select a Question
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="faqDropdown">
+        <li>
+          <a
+            class="dropdown-item"
+            href="#"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqOne"
+            aria-expanded="false"
+            aria-controls="faqOne"
+          >
+            What features does our webpage offer?
+          </a>
+          <div class="collapse" id="faqOne">
+            <div class="card card-body">
+              Our website offers features such as job postings, networking
+              abilities, and many other ways to find work in your area.
+            </div>
           </div>
-        </div>
-      </li>
-      <li>
-        <a
-          class="dropdown-item"
-          href="#"
-          data-bs-toggle="collapse"
-          data-bs-target="#faqTwo"
-          aria-expanded="false"
-          aria-controls="faqTwo"
-        >
-          How do I create a profile?
-        </a>
-        <div class="collapse" id="faqTwo">
-          <div class="card card-body">
-            To create a profile, simply click on the 'Sign Up' button on our
-            homepage, fill in your details, and you’ll be guided through the
-            process of setting up your professional profile.
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="#"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqTwo"
+            aria-expanded="false"
+            aria-controls="faqTwo"
+          >
+            How do I create a profile?
+          </a>
+          <div class="collapse" id="faqTwo">
+            <div class="card card-body">
+              To create a profile, simply click on the 'Sign Up' button on our
+              homepage, fill in your details, and you’ll be guided through the
+              process of setting up your professional profile.
+            </div>
           </div>
-        </div>
-      </li>
-      <li>
-        <a
-          class="dropdown-item"
-          href="#"
-          data-bs-toggle="collapse"
-          data-bs-target="#faqThree"
-          aria-expanded="false"
-          aria-controls="faqThree"
-        >
-          Why use this apposed to other similar websites?
-        </a>
-        <div class="collapse" id="faqThree">
-          <div class="card card-body">
-            You can not only find careers here, but also people needing daily
-            tasks done, like landscaping or dog walking.
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="#"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqThree"
+            aria-expanded="false"
+            aria-controls="faqThree"
+          >
+            Why use this apposed to other similar websites?
+          </a>
+          <div class="collapse" id="faqThree">
+            <div class="card card-body">
+              You can not only find careers here, but also people needing daily
+              tasks done, like landscaping or dog walking.
+            </div>
           </div>
-        </div>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 {% endblock %}
-
-<!--Brody Rines, 9/29/24, 2:30am-->
+<!--Damon Akinyemi, 10/13/24, 10:10pm-->
